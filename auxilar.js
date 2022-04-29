@@ -3,7 +3,7 @@
 /// *** GITHUB https://github.com/ErleyMartins ******** ///
 /// *************************************************** ///
 
-const validationField = {
+const _validationField = {
     validationInput: (input, min, max, nameField) => {
         const id = input.getAttribute('id');
         const span = document.querySelector(`div#${id}`);
@@ -46,7 +46,7 @@ const validationField = {
     }
 }
 
-const header = {
+const _header = {
     'Accept': 'application/json',
     'Content-Type': 'application/json'
 }
